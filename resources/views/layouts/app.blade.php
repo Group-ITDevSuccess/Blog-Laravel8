@@ -12,9 +12,12 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css" integrity="sha512-2aYgNVv7UfcJKXUzmfx6hDnWU1v7xu86Gwp5V27Zl8zv7lku9r3qKpF1yW8+l0cUeKx2xRktzmKtcav0/91c/g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.bundle.min.js" integrity="sha512-Q1xAdnXTfFbn1T/KTtB9ETQnRzdRZiW8EjKtJ4KNM17sOs1wO/Jb+dTkljH9mQ2RgOEny97B8CjJl4lq3p4w4g==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+
     </head>
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100">
