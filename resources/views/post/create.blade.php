@@ -6,6 +6,7 @@
     </x-slot>
 
     <div class="max-w-7xl mx-auto px-4 mt-4 sm:px-6 lg:px-8">
+        @csrf
         <form method="post" action="{{ route('posts.store') }}" enctype="multipart/form-data" class="bg-white shadow-lg rounded-lg px-8 py-6">
           <div class="mb-4">
             <x-label for="title" value="Titre du Post" class="block font-semibold text-gray-700 mb-2" />
